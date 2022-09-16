@@ -1,0 +1,22 @@
+PODS:
+  - SDKCommon (1.0)
+  - SDKNetwork (1.0):
+    - SDKCommon
+
+DEPENDENCIES:
+  - SDKCommon (from `SDKCommon/.`)
+  - SDKNetwork (from `SDKNetwork/.`)
+
+EXTERNAL SOURCES:
+  SDKCommon:
+    :path: SDKCommon/.
+  SDKNetwork:
+    :path: SDKNetwork/.
+
+SPEC CHECKSUMS:
+  SDKCommon: 7a757392279f0dc7cbcc13333e8d50cec4ccef12
+  SDKNetwork: e67feca15ffc97df4e40c2030c2fbc10855af02b
+
+PODFILE CHECKSUM: 93f8de559a3298f878dfb53e88b34a01a11ae744
+
+COCOAPODS: 1.11.3
